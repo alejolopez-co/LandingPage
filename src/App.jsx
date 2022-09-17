@@ -1,10 +1,15 @@
+import { About } from "./components/About"
+import Home from "./components/Home"
+import NavBar from "./components/NavBar"
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-9xl">Hola mundo</h1>
-    </>
+    <div>
+      <NavBar />
+      <Home />
+      <About />
+    </div>
   )
 }
 
