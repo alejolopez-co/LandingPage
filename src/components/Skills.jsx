@@ -12,7 +12,7 @@ import MySQL from './src/assets/mysql.png';
 
 const Skills = () => {
   return (
-    <div>
+    <div name='skills'>
 
     </div>
   )
