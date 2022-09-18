@@ -16,8 +16,17 @@ const Skills = () => {
         {/* Container */}
         <div>
             <div>
-                <p>Experiencia</p>     
+                <p>Experiencia</p>
+                <p>Estos son los trabajos que he desempeñado:</p> 
             </div>
+
+            <div>
+                <div>
+                    <img src={HTML} alt="HTML icon" />
+                    <p>HTML</p>
+                </div>
+            </div>
+            
         </div>
     </div>
   )
