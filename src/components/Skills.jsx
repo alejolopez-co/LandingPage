@@ -19,7 +19,7 @@ const Skills = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>
                         Experiencia
                     </p>
-                    <p className='py-4'>
+                    <p className='py-6'>
                         <span className='font-bold'>{'{}'}</span> Estas son las tecnologías con las que he trabajado:
                     </p>
                 </div>

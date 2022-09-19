@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/myLogo.png'
+import React, { useState } from 'react';
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Logo from '../assets/myLogo.png';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
@@ -16,12 +17,32 @@ const NavBar = () => {
 
             {/* menu */}
             <ul className='hidden md:flex'>
-                <li>Inicio</li>
-                <li>Perfil</li>
+                <li>
+                    <Link to="home" smooth={true} duration={500} >
+                        Inicio
+                    </Link>
+                </li>
+                <li>
+                    <Link to="about" smooth={true} duration={500} >
+                        Perfil
+                    </Link>
+                </li>
                 <li>Estudios</li>
-                <li>Experiencia</li>
-                <li>Portafolio</li>
-                <li>Contacto</li>
+                <li>
+                    <Link to="skills" smooth={true} duration={500} >
+                        Experiencia
+                    </Link>
+                </li>
+                <li>
+                    <Link to="work" smooth={true} duration={500} >
+                        Portafolio
+                    </Link>
+                </li>
+                <li>
+                    <Link to="contact" smooth={true} duration={500} >
+                        Contacto
+                    </Link>
+                </li>
             </ul>
 
             {/* Hamburger */}
@@ -31,12 +52,32 @@ const NavBar = () => {
 
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#2B2C34] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Inicio</li>
-                <li className='py-6 text-4xl'>Perfil</li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="home" smooth={true} duration={500} >
+                        Inicio
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="about" smooth={true} duration={500} >
+                        Perfil
+                    </Link>
+                </li>
                 <li className='py-6 text-4xl'>Estudios</li>
-                <li className='py-6 text-4xl'>Experiencia</li>
-                <li className='py-6 text-4xl'>Portafolio</li>
-                <li className='py-6 text-4xl'>Contacto</li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="skills" smooth={true} duration={500} >
+                        Experiencia
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="work" smooth={true} duration={500} >
+                        Portafolio
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
+                        Contacto
+                    </Link>
+                </li>
             </ul>
 
             {/* Social icons */}
