@@ -12,7 +12,7 @@ import MySQL from '../assets/mysql.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className='bg-[#FFFFFE] text-[#2B2C34]'>
+        <div name='skills' className='w-full h-screen bg-[#FFFFFE] text-[#2B2C34]'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
@@ -20,7 +20,7 @@ const Skills = () => {
                         Experiencia
                     </p>
                     <p className='py-4'>
-                        // Estas son las tecnologías con las que he trabajado:
+                        <span className='font-bold'>{'{}'}</span> Estas son las tecnologías con las que he trabajado:
                     </p>
                 </div>
 

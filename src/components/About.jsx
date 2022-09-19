@@ -20,7 +20,7 @@ export const About = () => {
                     </div>
                     <div>
                         <p>
-                            Creación de todo tipo diagramas para el desarrollo de software
+                            Diseño de diagramas para el desarrollo de software
                         </p>
                         <p className='mt-2'>
                             Diseño de arquitecturas de software
