@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkImg from '../assets/kanbanDashboard.png';
-import realEstate from '../assets/realestate.jpg'
+import WorkImg2 from '../assets/app-todolist.png'
 
 const Work = () => {
   return (
@@ -19,7 +19,6 @@ const Work = () => {
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#D1D1E9] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
             {/* Hover effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
@@ -27,12 +26,39 @@ const Work = () => {
               </span>
               <div className='pt-8'>
                 <a href="/">
-                  <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                  <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
                 </a>
                 <a href="https://github.com/alejolopez-co/M3U2TrelloAppAlejandroLopez">
-                  <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repositorio</button>
+                  <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Repositorio
+                  </button>
                 </a>
+              </div>
+            </div>
+          </div>
 
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${WorkImg2})` }}
+            className='shadow-lg shadow-[#D1D1E9] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/* Hover effects */}
+            <div className='text-center opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                To-DO List
+              </span>
+              <div className='pt-8'>
+                <a href="/">
+                  <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/alejolopez-co/todo-list">
+                  <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Repositorio
+                  </button>
+                </a>
               </div>
             </div>
           </div>
