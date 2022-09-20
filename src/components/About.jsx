@@ -13,12 +13,12 @@ export const About = () => {
                     <div></div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-3xl font-bold'>
+                    <div className='sm:text-right text-2xl font-bold'>
                         <p>
                             Diseño de aplicaciones
                         </p>
                     </div>
-                    <div>
+                    <div className='font-medium'>
                         <p>
                             Diseño de diagramas para el desarrollo de software
                         </p>

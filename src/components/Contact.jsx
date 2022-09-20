@@ -8,16 +8,16 @@ const Contact = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>
                         Contacto
                     </p>
-                    <p className='py-6'>
+                    <p className='py-6 font-medium'>
                         <span className='font-bold'>{"{}"}</span>
                         {" "}Contácteme a través de este formulario o envíeme un correo a{" "} 
                         <span className='font-bold'>alejolopez.co@gmail.com</span>
                     </p>
                 </div>
-                <input name='name' className='bg-[#2B2C34] text-white p-2' type="text" placeholder='Nombre *' />
-                <input name='email' className='my-4 p-2 bg-[#2B2C34] text-white' type="email" placeholder='Email *' />
-                <textarea name="message" className='bg-[#2B2C34] text-white p-2' rows="10" placeholder='Mensaje'></textarea>
-                <button className='text-[#2B2C34] border-[#2B2C34] border-2 hover:bg-[#6246EA] hover:border-[#6246EA] hover:text-white px-4 py-3 my-8 mx-auto flex items-center'>Enviar</button>
+                <input name='name' className='bg-[#2B2C34] text-white p-2 required:border-red-500' type="text" placeholder='Nombre *' required />
+                <input name='email' className='my-4 p-2 bg-[#2B2C34] text-white required:border-red-500' type="email" placeholder='Email *' required />
+                <textarea name="message" className='bg-[#2B2C34] text-white p-2 required:border-red-500' rows="10" placeholder='Mensaje' required></textarea>
+                <button className='font-medium text-[#2B2C34] border-[#2B2C34] border-2 hover:bg-[#6246EA] hover:border-[#6246EA] hover:text-white px-4 py-3 my-8 mx-auto flex items-center'>Enviar</button>
             </form>
         </div>
     )

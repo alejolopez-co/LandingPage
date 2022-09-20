@@ -19,7 +19,7 @@ const Skills = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>
                         Experiencia
                     </p>
-                    <p className='py-6'>
+                    <p className='py-6 font-medium'>
                         <span className='font-bold'>{'{}'}</span> Estas son las tecnologías con las que he trabajado:
                     </p>
                 </div>
@@ -27,35 +27,35 @@ const Skills = () => {
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 text-black'>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p className=''>HTML</p>
+                        <p className='font-medium'>HTML</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
-                        <p className=''>CSS</p>
+                        <p className='font-medium'>CSS</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript icon" />
-                        <p className=''>JavaScript</p>
+                        <p className='font-medium'>JavaScript</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-16 h-20 mx-auto' src={ReactImg} alt="React icon" />
-                        <p className=''>React</p>
+                        <p className='font-medium'>React</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
-                        <p className=''>GitHub</p>
+                        <p className='font-medium'>GitHub</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-20 mx-auto' src={Java} alt="Java icon" />
-                        <p className=''>Java</p>
+                        <p className='font-medium'>Java</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-16 h-20 mx-auto' src={AzureSqlDatabase} alt="Azure Sql Database icon" />
-                        <p className=''>Sql database</p>
+                        <p className='font-medium'>Sql database</p>
                     </div>
                     <div className='shadow-md shadow-[#D1D1E9] hover:scale-110 duration-100'>
                         <img className='w-16 h-20 mx-auto' src={AzurePortal} alt="Azure Portal icon" />
-                        <p className=''>Azure portal</p>
+                        <p className='font-medium'>Azure portal</p>
                     </div>
                 </div>
 

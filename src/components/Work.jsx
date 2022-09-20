@@ -8,7 +8,7 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full'>
         <div className='mt-36'>
           <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>Portafolio</p>
-          <p className='py-6'>
+          <p className='py-6 font-medium'>
             <span className='font-bold'>{'{}'}</span> Mira algunos de mis trabajos recientes:
           </p>
         </div>
