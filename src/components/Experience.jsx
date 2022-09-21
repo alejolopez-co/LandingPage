@@ -10,9 +10,9 @@ import AzureSqlDatabase from '../assets/azureSqlDatabase.svg';
 import AzurePortal from '../assets/azure.png';
 import MySQL from '../assets/mysql.png';
 
-const Skills = () => {
+const Experience = () => {
     return (
-        <div name='skills' className='w-full h-screen bg-[#FFFFFE] text-[#2B2C34] p-8 mb-80'>
+        <div name='experience' className='w-full h-screen bg-[#FFFFFE] text-[#2B2C34] p-8 mb-80'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full'>
                 <div className='mt-44'>
@@ -64,4 +64,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Experience
