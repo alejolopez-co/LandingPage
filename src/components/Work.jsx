@@ -4,7 +4,7 @@ import WorkImg2 from '../assets/app-todolist.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen bg-[#FFFFFE] text-[#2B2C34] p-8'>
+    <div name='work' className='w-full md:h-screen bg-[#FFFFFE] text-[#2B2C34] sm:px-8'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full'>
         <div className='mt-36'>
           <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>Portafolio</p>
