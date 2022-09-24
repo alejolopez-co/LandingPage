@@ -2,30 +2,97 @@ import React from 'react'
 
 export const About = () => {
     return (
-        <div name='about' className='w-full h-screen bg-[#FFFFFE] text-[#2B2C34] p-8 mt-96 mb-80'>
-            <div className='flex flex-col px-8 justify-center items-center w-full h-full'>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right sm:pb-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>
-                            Perfil
-                        </p>
-                    </div>
-                    <div></div>
+        <div name='about' className='w-full mx-auto h-auto bg-[#FFFFFE] text-[#2B2C34] py-8 mt-96 mb-80'>
+            {/* Container */}
+            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div className='sm:text-right sm:pb-4 mt-44'>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#6246EA]'>
+                        Perfil
+                    </p>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-2xl font-bold'>
-                        <p>
-                            Diseño de aplicaciones
-                        </p>
-                    </div>
-                    <div className='font-medium'>
-                        <p>
-                            Diseño de diagramas para el desarrollo de software
-                        </p>
-                        <p className='mt-2'>
-                            Diseño de arquitecturas de software
-                        </p>
-                    </div>
+                <div className='flex items-end sm:mx-4'>
+                    <p className='font-medium'>
+                        <span className='font-bold'>{'{}'}</span> Estas son algunas de mis competencias:
+                    </p>
+                </div>
+                <div className='sm:text-right text-lg font-bold'>
+                    <p>
+                        Diseño de aplicaciones
+                    </p>
+                </div>
+                <div className='font-medium'>
+                    {/* List */}
+                    <ul role="list" className="space-y-4 text-gray-500 dark:text-gray-400">
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Diseño de diagramas para el desarrollo de software
+                            </span>
+                        </li>
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Diseño de arquitecturas de software
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div className='sm:text-right text-lg font-bold'>
+                    <p>
+                        Habilidades
+                    </p>
+                </div>
+                <div className='font-medium'>
+                    {/* List */}
+                    <ul role="list" className="space-y-4 text-gray-500 dark:text-gray-400">
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Comunicación asertiva, trabajo en equipo
+                            </span>
+                        </li>
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Experto en sistemas de Ayudas Diagnósticas
+                            </span>
+                        </li>
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Vigilancia tecnológica y selección de tecnologías
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div className='sm:text-right text-lg font-bold'>
+                    <p>
+                        Conocimientos de nube
+                    </p>
+                </div>
+                <div className='font-medium'>
+                    {/* List */}
+                    <ul role="list" className="space-y-4 text-gray-500 dark:text-gray-400">
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Fundamentos y experiencia en el monitoreo y costos de BD en Azure
+                            </span>
+                        </li>
+                        <li className="flex space-x-2">
+                            {/* Icon */}
+                            <svg className="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
+                            <span className="font-light leading-tight">
+                                Monitoreo Dynatrace, solución de incidentes
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

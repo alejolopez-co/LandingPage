@@ -75,7 +75,24 @@ const Education = () => {
               </div>
             </div>
           </div>
-          
+
+          {/* Grid item */}
+          <div className="w-full grid justify-items-center md:max-w-xl rounded-lg shadow-lg bg-white text-[#2B2C34] hover:bg-[#2B2C34] hover:text-[#FFFFFE]">
+            <div className='h-36'>
+              <img className="h-36 w-auto p-4 border-none" src={CampusFIMLM} alt="Campus icon" />
+            </div>
+            <div className="p-4 h-auto">
+              <div className='mb-6'>
+                <h5 className="text-sm font-bold mb-2 p-2">2022 - Diplomado en Desarrollo Front-end con React JS</h5>
+              </div>
+              <div className='mb-6'>
+                <p className="text-xs text-justify font-medium mb-4">
+
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Grid item */}
           <div className="w-full grid justify-items-center md:max-w-xl rounded-lg shadow-lg bg-white text-[#2B2C34] hover:bg-[#2B2C34] hover:text-[#FFFFFE]">
             <div className='h-36'>
@@ -101,23 +118,6 @@ const Education = () => {
             <div className="p-4 h-auto">
               <div className='mb-6'>
                 <h5 className="text-sm font-bold mb-2 p-2">2010 - Desarrollo de aplicaciones web con Java y oracle JDEVELOPER</h5>
-              </div>
-              <div className='mb-6'>
-                <p className="text-xs text-justify font-medium mb-4">
-
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          {/* Grid item */}
-          <div className="w-full grid justify-items-center md:max-w-xl rounded-lg shadow-lg bg-white text-[#2B2C34] hover:bg-[#2B2C34] hover:text-[#FFFFFE]">
-            <div className='h-36'>
-              <img className="h-36 w-auto p-4 border-none" src={CampusFIMLM} alt="Campus icon" />
-            </div>
-            <div className="p-4 h-auto">
-              <div className='mb-6'>
-                <h5 className="text-sm font-bold mb-2 p-2">2022 - Diplomado en Desarrollo Front-end con React JS</h5>
               </div>
               <div className='mb-6'>
                 <p className="text-xs text-justify font-medium mb-4">

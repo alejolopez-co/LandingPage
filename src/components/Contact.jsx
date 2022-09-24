@@ -10,7 +10,7 @@ const Contact = () => {
                     </p>
                     <p className='py-6 font-medium'>
                         <span className='font-bold'>{"{}"}</span>
-                        {" "}Contácteme a través de este formulario o envíeme un correo a{" "} 
+                        {" "}Contácteme a través de este formulario o envíame un correo a{" "} 
                         <span className='font-bold'>alejolopez.co@gmail.com</span>
                     </p>
                 </div>
