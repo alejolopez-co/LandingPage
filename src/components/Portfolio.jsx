@@ -2,7 +2,7 @@ import React from 'react';
 import WorkImg from '../assets/kanbanDashboard.png';
 import WorkImg2 from '../assets/app-todolist.png'
 
-const Work = () => {
+const Portfolio = () => {
   return (
     <div name='work' className='w-full h-auto bg-[#FFFFFE] text-[#2B2C34] sm:px-8'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full'>
@@ -164,4 +164,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Portfolio

@@ -100,24 +100,24 @@ const NavBar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0099D0]'>
-                        <a className='flex justify-between items-center w-full text-[#FFFFFE]' href="/">
+                        <a className='flex justify-between items-center w-full text-[#FFFFFE]' href="https://www.linkedin.com/in/alejandro-l%C3%B3pez-966a2529">
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#D1D1E9]'>
-                        <a className='flex justify-between items-center w-full text-[#2B2C34]' href="/">
+                        <a className='flex justify-between items-center w-full text-[#2B2C34]' href="https://github.com/alejolopez-co">
                             Github <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3A717F]'>
-                        <a className='flex justify-between items-center w-full text-[#FFFFFE]' href="/">
+                        <Link className='flex justify-between items-center w-full text-[#FFFFFE]' to="contact" smooth={true} duration={500} >
                             Email <HiOutlineMail size={30} />
-                        </a>
+                        </Link>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2B2C34]'>
-                        <a className='flex justify-between items-center w-full text-[#FFFFFE]' href="/">
-                            Resume <BsFillPersonLinesFill size={30} />
-                        </a>
+                        <Link className='flex justify-between items-center w-full text-[#FFFFFE]' to="about" smooth={true} duration={500} >
+                            Currículum <BsFillPersonLinesFill size={30} />
+                        </Link>
                     </li>
                 </ul>
             </div>

@@ -3,8 +3,8 @@ import Contact from "./components/Contact"
 import Home from "./components/Home"
 import NavBar from "./components/NavBar"
 import Education from "./components/Education"
-import Work from "./components/Work"
 import Experience from "./components/Experience"
+import Portfolio from "./components/Portfolio"
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <About />
       <Education />
       <Experience />
-      <Work />
+      <Portfolio />
       <Contact />
     </div>
   )
