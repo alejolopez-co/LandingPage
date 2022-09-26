@@ -25,7 +25,7 @@ const Work = () => {
                 Tablero kanban
               </span>
               <div className='pt-8'>
-                <a href="/">
+                <a href="https://app-kanban-javascript.web.app">
                   <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
