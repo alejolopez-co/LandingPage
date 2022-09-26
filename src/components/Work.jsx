@@ -49,7 +49,7 @@ const Work = () => {
                 To-DO List
               </span>
               <div className='pt-8'>
-                <a href="/">
+                <a href="https://app-todo-list-react.web.app">
                   <button className="rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -62,6 +62,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
